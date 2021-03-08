@@ -26,7 +26,7 @@
   line-height: 1.4;
 }
 
-.challengeBoxNotActive p {
+.challengeBoxNotActive div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,12 +37,11 @@
   margin-top: 3rem;
 }
 
-.challengeBoxNotActive p img {
+.challengeBoxNotActive div img {
   max-height: 50px;
-  margin-bottom: 1rem;
 }
 
-.challengeBoxNotActive p div {
+.challengeBoxNotActive div p {
   text-align: left;
   padding-left: 0.9rem;
 }
@@ -118,16 +117,16 @@
 }
 
 @media (max-width: 768px) {
-  .challengeBoxNotActive p {
+  .challengeBoxNotActive div {
     flex-direction: column;
   }
 
-  .challengeBoxNotActive p img {
+  .challengeBoxNotActive div img {
     max-height: none;
     margin-bottom: 1rem;
   }
 
-  .challengeBoxNotActive p div {
+  .challengeBoxNotActive div p {
     text-align: center;
     padding-left: 0;
   }
