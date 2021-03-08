@@ -1,16 +1,13 @@
 .challengeBoxContainer {
   height: 100%;
-
   background: var(--white);
   border-radius: 5px;
   box-shadow: 0 0 60px rgba(0, 0 0, 0.05);
   padding: 1.5rem 2rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   text-align: center;
 }
 
@@ -31,7 +28,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   line-height: 1.4;
   max-width: 80%;
   margin-top: 3rem;
@@ -48,7 +44,6 @@
 
 .challengeActive {
   height: 100%;
-
   display: flex;
   flex-direction: column;
 }
@@ -88,19 +83,14 @@
 
 .challengeActive footer button {
   height: 3rem;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   border: 0;
   border-radius: 5px;
-
   color: var(--white);
-
   font-size: 1rem;
   font-weight: 600;
-
   transition: 'filter 0.2s';
 }
 
