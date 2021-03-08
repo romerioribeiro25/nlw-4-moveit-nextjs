@@ -10,11 +10,11 @@ export function Profile() {
   return (
     <div className={styles.profileContainer}>
       <img
-        src='https://images6.fanpop.com/image/photos/43800000/Dahyun-twice-jyp-ent-43823903-300-300.jpg'
-        alt=''
+        src='https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/c/e/d/9/ced90033f283ea0311a6d3d45250d317-tb4.jpg'
+        alt='João Liborio'
       />
       <div>
-        <strong>Kim Dahyun</strong>
+        <strong>João Liborio</strong>
         <p>
           <img src='icons/level.svg' alt='Level' />
           Level {level}
