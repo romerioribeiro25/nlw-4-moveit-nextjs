@@ -1,34 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+   <img src="https://pbs.twimg.com/media/Eu7lwjwWYAM840M?format=jpg&name=medium"
+    alt="NLW04" height="500" />
+</p>
 
-## Getting Started
+<div align="center">
+  <b>Move.it</b> é um projeto Front-End criado utilizando ReactJS, NextJS e TypeScript durante a NLW#4 da [Rocketseat](https://github.com/Rocketseat).
 
-First, run the development server:
+  <sub>
+    <strong>MoveIt</strong> by 
+    <a href="https://www.instagram.com/ribeiro.romerio">Romério Ribeiro</a>
+  </sub>
+</div>
+
+# Conteúdo
+
+- [Fotos](#photos-fotos)
+- [Demo](#demo-demo)
+- [Tecnologias](#technologies-tecnologias)
+- [Executando](#executing-executando)
+- [Autores](#authors-autores)
+- [Licença](#license-licença)
+
+### :photos: Fotos
+
+<div>
+   <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/home.png" width="400px">
+   <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/home_time.png" width="400px">
+   <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/challenge.png" width="400px">
+   <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/level.png" width="400px">
+    <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/levelup.png" width="400px">
+</div>
+
+# :demo: Demo
+
+Demo: <https://moveit-nextjs-64iz47wrj-romerio111.vercel.app/>
+
+# :technologies: Tecnologias
+
+Este projeto foi feito utilizando as seguintes tecnologias:
+
+- [NextJS](https://github.com/vercel/next.js/)
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [js-cookie](https://github.com/js-cookie/js-cookie)
+- [ESLint](https://github.com/eslint/eslint)
+- [Prettier](https://github.com/prettier/prettier)
+- [Stylelint](https://github.com/stylelint/stylelint)
+
+# :executing: Executando
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone o Repositório
+$ git@github.com:romerioribeiro25/nlw-4-moveit-nextjs.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Para instalar as dependências
+$ yarn
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Executando localmente
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+# Para iniciar o servidor de desenvolvimento
+$ yarn dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+`Abra http://localhost:3000` para abrir o site em seu navegador favorito
 
-## Learn More
+# :authors: Autores
 
-To learn more about Next.js, take a look at the following resources:
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/romerioribeiro25/">
+        <img src="https://avatars.githubusercontent.com/u/24189722?s=460&v=4" width="100px;" alt="Romério Ribeiro"/>
+        <br />
+        <sub>
+          <b>Romério Ribeiro</b>
+        </sub>
+       </a>
+       <br />
+       <a href="https://www.instagram.com/ribeiro.romerio/?hl=pt-br" title="Instagram">@ribeiro.romerio</a> 
+    </td>
+    <td align="center">
+      <a href="https://github.com/Rocketseat">
+        <img src="https://avatars0.githubusercontent.com/u/28929274?s=200&v=4" width="100px;" alt="Rocketseat"/>
+        <br />
+        <sub>
+          <b>Rocketseat</b>
+        </sub>
+       </a>
+       <br />
+       <a href="https://github.com/Rocketseat" title="Linkedin">@Rocketseat</a>
+    </td>
+  </tr>
+</table>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# :license: Licença
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está sob a licença [MIT](./LICENSE).
