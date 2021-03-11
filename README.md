@@ -2,40 +2,45 @@
    <img src="https://pbs.twimg.com/media/Eu7lwjwWYAM840M?format=jpg&name=medium"
     alt="NLW04" height="500" />
 </p>
+ 
+<p align="center">
+  <b>Move.it</b> é um projeto Front-End criado utilizando ReactJS, NextJS e TypeScript durante a NLW#4 da <a href="https://github.com/Rocketseat">Rocketseat</a>.
+</p>
 
-<div align="center">
-  <b>Move.it</b> é um projeto Front-End criado utilizando ReactJS, NextJS e TypeScript durante a NLW#4 da [Rocketseat](https://github.com/Rocketseat).
-
+<p align="center">
   <sub>
-    <strong>MoveIt</strong> by 
+    <strong>Move.it</strong> by 
     <a href="https://www.instagram.com/ribeiro.romerio">Romério Ribeiro</a>
   </sub>
-</div>
+</p>
 
 # Conteúdo
 
-- [Fotos](#photos-fotos)
-- [Demo](#demo-demo)
-- [Tecnologias](#technologies-tecnologias)
-- [Executando](#executing-executando)
-- [Autores](#authors-autores)
-- [Licença](#license-licença)
+- [Fotos](#photos)
+- [Demo](#demo)
+- [Tecnologias](#technologies)
+- [Executando](#executing)
+- [Autores](#authors)
+- [Licença](#license)
 
-### :photos: Fotos
+<a id="photos"></a>
+
+## Fotos
 
 <div>
-   <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/home.png" width="400px">
-   <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/home_time.png" width="400px">
-   <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/challenge.png" width="400px">
-   <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/level.png" width="400px">
-    <img src="https://raw.githubusercontent.com/tavareshenrique/moveit-nlw/main/public/screenshots/levelup.png" width="400px">
+   <img src="https://docs.google.com/uc?id=1UW9G1iAgJCD58iAeZZ60MJYW_PjFsnUv" width="400px">
+   <img src="https://docs.google.com/uc?id=1pfyJEMu43FbcmC_TwCC7qPQXxIEPluRB" width="400px">
 </div>
 
-# :demo: Demo
+<a id="demo"></a>
 
-Demo: <https://moveit-nextjs-64iz47wrj-romerio111.vercel.app/>
+## Demo
 
-# :technologies: Tecnologias
+Clique no link <https://moveit-nextjs-64iz47wrj-romerio111.vercel.app/>
+
+<a id="technologies"></a>
+
+## Tecnologias
 
 Este projeto foi feito utilizando as seguintes tecnologias:
 
@@ -47,7 +52,9 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 - [Prettier](https://github.com/prettier/prettier)
 - [Stylelint](https://github.com/stylelint/stylelint)
 
-# :executing: Executando
+<a id="executing"></a>
+
+## Executando
 
 ```bash
 # Clone o Repositório
@@ -68,7 +75,9 @@ $ yarn dev
 
 `Abra http://localhost:3000` para abrir o site em seu navegador favorito
 
-# :authors: Autores
+<a id="authors"></a>
+
+## Autores
 
 <table>
   <tr>
@@ -97,6 +106,8 @@ $ yarn dev
   </tr>
 </table>
 
-# :license: Licença
+<a id="license"></a>
+
+## Licença
 
 Este projeto está sob a licença [MIT](./LICENSE).
